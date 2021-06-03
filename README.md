@@ -1,4 +1,4 @@
-## What is it?
+## Intro
 A collection of info about the Tapo C200.<br>
 Info that you don't find in the manaul or tplink site.
 Basically hacks, mods & internal HW data.
