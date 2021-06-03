@@ -23,4 +23,5 @@ Basically hacks, mods & internal HW data.
 
 Lets face it, this little C200 cam is quite popular.
 The one I bought, even had a best seller sticker on it. (the real reason I bought it)
-<img src="https://github.com/KrisKasprzak/ILI9341_t3_controls456">
+<img src="https://github.com/sengiv/TapoC200/blob/master/images/best-seller.png">
+I wouldn't say it is cheap, there are cheaper ones in Aliexpress. But it is definaltly afordable.
