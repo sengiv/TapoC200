@@ -1,100 +1,182 @@
 U-Boot 2014.01-v1.2 (Nov 11 2020 - 20:29:43)
 
-Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=
 
-U-Boot 2014.01-v1.2 (Nov 11 2020 - 20:29:43)
-
-Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=0xdc02
-force spi nor mode
-DRAM:  64 MiB @ 1066 MHz
-Skipping flash_init
-Flash: 0 Bytes
-flash status is 0, 2
-SF: 0xdc02
-force spi nor mode
-DRAM:  64 MiB @ 1066 MHz
-Skipping flash_init
-Flash: 0 Bytes
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-Using default environment
-
-Autobooting in 1 seconds
-Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-Using default environment
-
-Autobooting in 1 seconds
-copying flash to 0x81500000
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-copying flash to 0x81500000
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-SF: 8388608 bytes @ 0x0 Read: OK
-verifying uboot partition...
-ok
-verifying kernel and romfs partition...
-SF: 8388608 bytes @ 0x0 Read: OK
-verifying uboot partition...
-ok
-verifying kernel and romfs partition...
-ok
-set watchdog, resetting...ok
-set watchdog, resetting...
-
-U-Boot 2014.01-v1.2 (Apr 25 2021 - 18:25:18)
-
-Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=0xdc02
-force spi nor mode
-DRAM:  64 MiB @ 1066 MHz
+Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=
 
 
-U-Boot 2014.01-v1.2 (Apr 25 2021 - 18:25:18)
+U-Boot 2014.01-v1.2 (Nov 11 2020 - 20:29:43)
 
-Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=0xdc02
-force spi nor mode
-DRAM:  64 MiB @ 1066 MHz
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-Flash: 0 Bytes
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-Using default environment
 
-In:    serial
-Out:   serial
-Err:   serial
-Net:   flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-Flash: 0 Bytes
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-Using default environment
+Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=0xdc02
 
-In:    serial
-Out:   serial
-Err:   serial
-Net:   Realtek PCIe GBE Family Controller mcfg = 0024
-new_ethaddr = 00:00:00:00:00:00
-r8168#0
-Autobooting in 1 seconds
-Realtek PCIe GBE Family Controller mcfg = 0024
-new_ethaddr = 00:00:00:00:00:00
-r8168#0
-Autobooting in 1 seconds
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-flash status is 0, 2
-SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
-SF: 3145728 bytes @ 0x60000 Read: OK
-## Booting image at 82000000 ...
-   Uncompressing Kernel Image ... SF: 3145728 bytes @ 0x60000 Read: OK
-## Booting image at 82000000 ...
-   Uncompressing Kernel Image ... OK
+force spi nor mode
 
-Starting kernel ...
+DRAM:  64 MiB @ 1066 MHz
 
-[    0.000000] Linux version 3.10.27 (root@smartlifeci1) (gcc version 4.8.5 20150209 (prerelease) (Realtek RSDK-4.8.5p1 Build 2521) ) #2 PREEMPT Sun Apr 25 18:32:47 CST 2021
+Skipping flash_init
+
+Flash: 0 Bytes
+
+flash status is 0, 2
+
+SF: 0xdc02
+
+force spi nor mode
+
+DRAM:  64 MiB @ 1066 MHz
+
+Skipping flash_init
+
+Flash: 0 Bytes
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+Using default environment
+
+
+Autobooting in 1 seconds
+
+Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+Using default environment
+
+
+Autobooting in 1 seconds
+
+copying flash to 0x81500000
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+copying flash to 0x81500000
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+SF: 8388608 bytes @ 0x0 Read: OK
+
+verifying uboot partition...
+
+ok
+
+verifying kernel and romfs partition...
+
+SF: 8388608 bytes @ 0x0 Read: OK
+
+verifying uboot partition...
+
+ok
+
+verifying kernel and romfs partition...
+
+ok
+
+set watchdog, resetting...ok
+
+set watchdog, resetting...
+
+
+U-Boot 2014.01-v1.2 (Apr 25 2021 - 18:25:18)
+
+
+Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=0xdc02
+
+force spi nor mode
+
+DRAM:  64 MiB @ 1066 MHz
+
+
+
+U-Boot 2014.01-v1.2 (Apr 25 2021 - 18:25:18)
+
+
+Board: IPCAM RTS3903 CPU: 500M :rx5281 prid=0xdc02
+
+force spi nor mode
+
+DRAM:  64 MiB @ 1066 MHz
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+Flash: 0 Bytes
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+Using default environment
+
+
+In:    serial
+
+Out:   serial
+
+Err:   serial
+
+Net:   flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+Flash: 0 Bytes
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+Using default environment
+
+
+In:    serial
+
+Out:   serial
+
+Err:   serial
+
+Net:   Realtek PCIe GBE Family Controller mcfg = 0024
+
+new_ethaddr = 00:00:00:00:00:00
+
+r8168#0
+
+Autobooting in 1 seconds
+
+Realtek PCIe GBE Family Controller mcfg = 0024
+
+new_ethaddr = 00:00:00:00:00:00
+
+r8168#0
+
+Autobooting in 1 seconds
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+flash status is 0, 2
+
+SF: Detected W25Q64FV with page size 256 Bytes, erase size 64 KiB, total 8 MiB
+
+SF: 3145728 bytes @ 0x60000 Read: OK
+
+## Booting image at 82000000 ...
+
+   Uncompressing Kernel Image ... SF: 3145728 bytes @ 0x60000 Read: OK
+
+## Booting image at 82000000 ...
+
+   Uncompressing Kernel Image ... OK
+
+
+Starting kernel ...
+
+
+[    0.000000] Linux version 3.10.27 (root@smartlifeci1) (gcc version 4.8.5 20150209 (prerelease) (Realtek RSDK-4.8.5p1 Build 2521) ) #2 PREEMPT Sun Apr 25 18:32:47 CST 2021
 [    0.000000] prom cpufreq = 500000000
 [    0.000000] prom memsize = 67108864
 [    0.000000] hw_ver: 0x2, hw_rev: 0x1, isp_ver: 0x1
@@ -102,9 +184,11 @@ U-Boot 2014.01-v1.2 (Nov 11 2020 - 20:29:43)
 [    0.000000] CPU revision is: 0000dc02
 [ OK
 
-Starting kernel ...
 
-[    0.000000] Linux version 3.10.27 (root@smartlifeci1) (gcc version 4.8.5 20150209 (prerelease) (Realtek RSDK-4.8.5p1 Build 2521) ) #2 PREEMPT Sun Apr 25 18:32:47 CST 2021
+Starting kernel ...
+
+
+[    0.000000] Linux version 3.10.27 (root@smartlifeci1) (gcc version 4.8.5 20150209 (prerelease) (Realtek RSDK-4.8.5p1 Build 2521) ) #2 PREEMPT Sun Apr 25 18:32:47 CST 2021
 [    0.000000] prom cpufreq = 500000000
 [    0.000000] prom memsize = 67108864
 [    0.000000] hw_ver: 0x2, hw_rev: 0x1, isp_ver: 0x1
@@ -440,7 +524,8 @@ ssl verify time                 : 0
 
 [40;32m[INFO][0m[cloud-service] init_config_info(575): device_bind_status: 1
 
-[40;32m[INFO][0m[cloud-service] init_config_info(576): msg_push_switch: 0Camera_DE19
+[40;32m[INFO][0m[cloud-service] init_config_info(576): msg_push_switch: 0
+Camera_DE19
 
 [40;32m[INFO][0m[cloud-service] init_config_info(569): dev_mac:     909A4A90DE19
 
@@ -642,7 +727,7 @@ with_ldr=0
 irt_comm[0]={200,50}
 irt_comm[1]={170,40}
 irt_comm[2]={140,30}
-irt_comm[3]={120,18}
+irt_comm[3]={120,18}s
 irt_comm[4]={100,6}
 irt_comm[5]={80,4}
 irt_comm[6]={60,2}
@@ -922,8 +1007,10 @@ update without switch...
 }
 switch done
 switch done
-Jun  3 21:36:21 login[1803]: root login on 'pts/0'
-Jun  3 21:36:21 login[1803]: root login on 'pts/0'
+Jun  3 21:36:21 login[1803]: root login on 'pts/0'
+
+Jun  3 21:36:21 login[1803]: root login on 'pts/0'
+
 [   51.408000] Registered character driver x-motor
 [   51.422000] Registered character driver y-motor
 [   51.408000] Registered character driver x-motor
